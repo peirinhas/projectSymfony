@@ -1,60 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f235ae5e-4f8c-47f3-89a3-8bba3e7d6d4b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/var/cache/.gitkeep" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/var/logs/.gitkeep" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/var/sessions/.gitkeep" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/web/apple-touch-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/web/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/projectSymfony.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vagrant.bootstrap.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vagrantfile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/app/.htaccess" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/app/AppCache.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/app/AppKernel.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/app/Resources/views/base.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/app/Resources/views/default/index.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/app/config/config.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/app/config/config_dev.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/app/config/config_prod.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/app/config/config_test.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/app/config/parameters.yml.dist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/app/config/routing.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/app/config/routing_dev.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/app/config/security.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/app/config/services.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/bin/console" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/bin/symfony_requirements" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/composer.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/composer.lock" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/phpunit.xml.dist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/src/.htaccess" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/src/AppBundle/AppBundle.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/src/AppBundle/Controller/DefaultController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/src/AppBundle/Controller/PruebasController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/src/AppBundle/Resources/config/routing.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/src/AppBundle/Resources/views/Pruebas/index.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/tests/AppBundle/Controller/DefaultControllerTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/var/SymfonyRequirements.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/web/.htaccess" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/web/app.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/web/app_dev.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/web/config.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/web/robots.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phpinfo.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vagrant/config/vg-local.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vagrant/scripts/always-as-root.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vagrant/scripts/once-as-root.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vagrant/scripts/once-as-vagrant.sh" />
-    </list>
+    <list default="true" id="f235ae5e-4f8c-47f3-89a3-8bba3e7d6d4b" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -203,12 +150,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1506450177914</updated>
-      <workItem from="1506450179323" duration="596000" />
+      <workItem from="1506450179323" duration="900000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="596000" />
+    <option name="totallyTimeSpent" value="900000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="827" extended-state="0" />
@@ -237,6 +184,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="205" height="162" key="Git.Branch.Popup" />
+    <state width="205" height="162" key="Git.Branch.Popup/0.0.1440.900/1440.0.1920.1080" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
