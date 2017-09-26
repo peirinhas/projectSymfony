@@ -1,0 +1,24 @@
+# Your personal GitHub token comentado mientras tanto
+# github_token: 2c029dd289eb282cfa060383d401d88d232e9f90
+# Read more: https://github.com/blog/1509-personal-api-tokens
+# You can generate it here: https://github.com/settings/tokens
+
+vagrant_api_version: 2
+# Guest OS timezone
+timezone: Europe/Madrid
+
+# Are we need check box updates for every 'vagrant up'?
+box_check_update: false
+
+# Virtual machine name
+machine_name: devel
+
+# Virtual machine IP
+ip: 192.168.83.132
+
+# Virtual machine CPU cores number
+cpus: 1
+
+# Virtual machine RAM
+memory: 512
+
