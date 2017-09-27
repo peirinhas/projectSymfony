@@ -14,10 +14,6 @@ config = {
 
 options = YAML.load_file config[:local]
 
-domains = {
-  test: "#{options['machine_name']}.dev"
-}
-
 Vagrant.configure(options['vagrant_api_version']) do |config|
   # The most common configuration options are documented and commented below.
   # For a complete reference, please see the online documentation at
@@ -99,7 +95,6 @@ Vagrant.configure(options['vagrant_api_version']) do |config|
   config.hostmanager.manage_host        = true
   config.hostmanager.ignore_private_ip  = false
   config.hostmanager.include_offline    = true
-  config.hostmanager.aliases            = domains.values
 
   # Enable provisioning with a shell script. Additional provisioners such as
   # Puppet, Chef, Ansible, Salt, and Docker are also available. Please see the
@@ -107,7 +102,7 @@ Vagrant.configure(options['vagrant_api_version']) do |config|
   
   # provisioners
   # Ejecucion de Scripts
-  config.vm.provision 'shell', path: './vagrant/scripts/once-as-root.sh', args: [options['timezone']]
-  # config.vm.provision 'shell', path: './vagrant/scripts/once-as-vagrant.sh', args: [options['github_token']], privileged: false
-  config.vm.provision 'shell', path: './vagrant/scripts/always-as-root.sh', run: 'always'
+  config.vm.provision 'shell', path: 'vagrant/scripts/once-as-root.sh', args: [options['timezone']]
+  # config.vm.provision 'shell', path: 'vagrant/scripts/once-as-vagrant.sh', args: [options['github_token']], privileged: false
+  config.vm.provision 'shell', path: 'vagrant/scripts/always-as-root.sh', run: 'always'
 end
