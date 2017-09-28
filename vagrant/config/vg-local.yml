@@ -7,14 +7,29 @@ vagrant_api_version: 2
 # Guest OS timezone
 timezone: Europe/Madrid
 
+#name hostname
+hostname: devel
+
 # Are we need check box updates for every 'vagrant up'?
-box_check_update: false
+box_check_update: true
+
+# Virtual machine box
+box: bento/debian-8.7
 
 # Virtual machine name
 machine_name: devel
 
+# Virtual machine network
+network: private_network
+
 # Virtual machine IP
-ip: 192.168.83.132
+ip: 192.168.0.10
+
+# Virtual machine path directory sincronized
+synced_folder: ../
+
+# Virtual machine path directory where begin sincronized
+synced_folder_father: /var/www/html/
 
 # Virtual machine CPU cores number
 cpus: 1
@@ -22,3 +37,8 @@ cpus: 1
 # Virtual machine RAM
 memory: 512
 
+owner: vagrant
+
+group: www-data
+
+mount_options: dmode=775,fmode=664
