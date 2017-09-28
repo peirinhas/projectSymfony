@@ -23,7 +23,7 @@ machine_name: devel
 network: private_network
 
 # Virtual machine IP
-ip: 192.168.0.99
+ip: 192.168.83.132
 
 # Virtual machine path directory sincronized
 synced_folder: ../
