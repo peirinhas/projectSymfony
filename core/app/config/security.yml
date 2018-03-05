@@ -1,11 +1,23 @@
 # To get started with security, check out the documentation:
 # http://symfony.com/doc/current/security.html
 security:
+    #Indicamos que los la entity User se va a encriptar
+    encoders:
+        BlogBundle\Entity\User:
+            algorithm: bcrypt
+            #va a hacer un hash tantas veces como se haga en el cost
+            cost: 4
 
     # http://symfony.com/doc/current/security.html#b-configuring-how-users-are-loaded
+    # El provider indica quien se puede utilizar la aplicacion, en este caso vamos a ir a la BBDD a consultar los usuarios
     providers:
-        in_memory:
-            memory: ~
+        our_db_provider:
+          entity:
+            #Indicamos de que entity va a obtener la infrmacion
+            class: BlogBundle:User
+            #Indica la propiedad principal para identificar
+            property: email
+
 
     firewalls:
         # disables authentication for assets and the profiler, adapt it according to your needs
@@ -13,8 +25,18 @@ security:
             pattern: ^/(_(profiler|wdt)|css|images|js)/
             security: false
 
+        #Para indicar como se va a autenticar
         main:
             anonymous: ~
+            provider: our_db_provider
+            form_login:
+                login_path: /login
+                check_path: /login_check
+            logout:
+                path: /logout
+                target: /login
+
+
             # activate different ways to authenticate
 
             # http://symfony.com/doc/current/security.html#a-configuring-how-your-users-will-authenticate
